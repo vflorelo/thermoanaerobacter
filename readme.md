@@ -87,7 +87,7 @@ blastn -query NC_008463.dnaa.nt.fasta -subject NC_010320.dnaa.nt.fasta
 blastp -query WP_003109151.dnaa.aa.fasta -subject WP_009052052.dnaa.aa.fasta > dnaA.blastp.txt
 ```
 
-[Resultados BLASTn](dnaA.blastp.txt)
+[Resultados BLASTp](dnaA.blastp.txt)
 
 3. Si usamos la secuencia de dnaA de *Pseudomonas* sobre el genoma de *Pseudomonas aeruginosa*, podemos encontrar la posición del gen dnaA (control positivo).
 
@@ -143,7 +143,7 @@ Tras la examinación del resultado, es posible que haya un gen entre los nucleó
 grep -w gene NC_010320.rhamnosyltransferases.exonerate.gff
 ```
 
-Finalmente, al revisar el reporte del genoma de *Thermoanaerobacter* sp. X514, podemos ver que en efecto hay un [gen](https://www.ncbi.nlm.nih.gov/nuccore/167038675?report=graph&tracks=[key:sequence_track,name:Sequence,display_name:Sequence,id:STD649220238,annots:Sequence,ShowLabel:false,ColorGaps:false,shown:true,order:1][key:gene_model_track,name:Genes,display_name:Genes,id:STD3194982005,annots:Unnamed,Options:MergeAll,CDSProductFeats:false,NtRuler:true,AaRuler:true,HighlightMode:2,ShowLabel:true,shown:true,order:10][key:feature_track,name:Repeat region,display_name:Repeat region,id:STD3463812800,subkey:repeat_region,annots:Unnamed,Layout:Adaptive,LinkedFeat:Packed,shown:true,order:11]&assm_context=GCF_000019065.1&v=2229121:2230518&c=339966&select=null&slim=0), no obstante es posible que se trate de una asociación muy remota.
+Finalmente, al revisar el reporte del genoma de *Thermoanaerobacter* sp. X514, podemos ver que en efecto hay un [gen](https://www.ncbi.nlm.nih.gov/nuccore/NC_010320.1?report=genbank&from=2229121&to=2230518), no obstante es posible que se trate de una asociación muy remota.
 
 Con ésto en mente, podemos descartar que la cepa X514 de *Thermoanaerobacter* sp. posea genes codificantes de rhamnosil transferasas.
 

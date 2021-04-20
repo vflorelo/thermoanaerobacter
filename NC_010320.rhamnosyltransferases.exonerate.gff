@@ -1,0 +1,37 @@
+Command line: [exonerate --model protein2genome --query rhamnosyltransferases.nr.fasta --target NC_010320.fasta --geneticcode 11 --maxintron 0 --showalignment no --showvulgar no --showtargetgff yes]
+Hostname: [anna.viewdns.net]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_010320.1	exonerate:protein2genome:local	gene	2229274	2229591	102	+	.	gene_id 1 ; sequence WP_207933080.1 ; gene_orientation . ; identity 25.71 ; similarity 49.52
+NC_010320.1	exonerate:protein2genome:local	cds	2229274	2229591	.	+	.	
+NC_010320.1	exonerate:protein2genome:local	exon	2229274	2229591	.	+	.	insertions 3 ; deletions 0 ; identity 25.71 ; similarity 49.52
+NC_010320.1	exonerate:protein2genome:local	similarity	2229274	2229591	102	+	.	alignment_id 1 ; Query WP_207933080.1 ; Align 2229274 67 177 ; Align 2229454 126 138
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_010320.1	exonerate:protein2genome:local	gene	2229274	2229591	101	+	.	gene_id 1 ; sequence WP_191985600.1 ; gene_orientation . ; identity 25.71 ; similarity 49.52
+NC_010320.1	exonerate:protein2genome:local	cds	2229274	2229591	.	+	.	
+NC_010320.1	exonerate:protein2genome:local	exon	2229274	2229591	.	+	.	insertions 3 ; deletions 0 ; identity 25.71 ; similarity 49.52
+NC_010320.1	exonerate:protein2genome:local	similarity	2229274	2229591	101	+	.	alignment_id 1 ; Query WP_191985600.1 ; Align 2229274 67 177 ; Align 2229454 126 138
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

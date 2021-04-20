@@ -1,0 +1,547 @@
+Command line: [exonerate --model protein2genome --query rhamnosyltransferases.nr.fasta --target NC_008463.fasta --geneticcode 11 --maxintron 0 --showalignment no --showvulgar no --showtargetgff yes]
+Hostname: [anna.viewdns.net]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	1648632	1649516	1515	+	.	gene_id 1 ; sequence BCT50731.1 ; gene_orientation . ; identity 99.66 ; similarity 99.66
+NC_008463.1	exonerate:protein2genome:local	cds	1648632	1649516	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	1648632	1649516	.	+	.	insertions 0 ; deletions 0 ; identity 99.66 ; similarity 99.66
+NC_008463.1	exonerate:protein2genome:local	similarity	1648632	1649516	1515	+	.	alignment_id 1 ; Query BCT50731.1 ; Align 1648632 1 885
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	4859110	4859934	592	+	.	gene_id 2 ; sequence BCT50731.1 ; gene_orientation . ; identity 44.36 ; similarity 62.18
+NC_008463.1	exonerate:protein2genome:local	cds	4859110	4859934	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	4859110	4859934	.	+	.	insertions 0 ; deletions 0 ; identity 44.36 ; similarity 62.18
+NC_008463.1	exonerate:protein2genome:local	similarity	4859110	4859934	592	+	.	alignment_id 2 ; Query BCT50731.1 ; Align 4859110 1 825
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	6408891	6410033	1984	-	.	gene_id 1 ; sequence QLD71686.1 ; gene_orientation . ; identity 99.48 ; similarity 99.74
+NC_008463.1	exonerate:protein2genome:local	cds	6408891	6410033	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	6408891	6410033	.	-	.	insertions 0 ; deletions 0 ; identity 99.48 ; similarity 99.74
+NC_008463.1	exonerate:protein2genome:local	similarity	6408891	6410033	1984	-	.	alignment_id 1 ; Query QLD71686.1 ; Align 6410034 1 1143
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	4208152	4208580	146	-	.	gene_id 1 ; sequence WP_207933080.1 ; gene_orientation . ; identity 38.57 ; similarity 50.71
+NC_008463.1	exonerate:protein2genome:local	cds	4208152	4208580	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	4208152	4208580	.	-	.	insertions 9 ; deletions 0 ; identity 38.57 ; similarity 50.71
+NC_008463.1	exonerate:protein2genome:local	similarity	4208152	4208580	146	-	.	alignment_id 1 ; Query WP_207933080.1 ; Align 4208581 65 237 ; Align 4208338 144 162 ; Align 4208173 198 21
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	268725	269054	144	-	.	gene_id 2 ; sequence WP_207933080.1 ; gene_orientation . ; identity 32.11 ; similarity 53.21
+NC_008463.1	exonerate:protein2genome:local	cds	268725	269054	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	268725	269054	.	-	.	insertions 3 ; deletions 0 ; identity 32.11 ; similarity 53.21
+NC_008463.1	exonerate:protein2genome:local	similarity	268725	269054	144	-	.	alignment_id 2 ; Query WP_207933080.1 ; Align 269055 63 189 ; Align 268863 126 138
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	6219854	6220156	122	-	.	gene_id 3 ; sequence WP_207933080.1 ; gene_orientation . ; identity 37.00 ; similarity 53.00
+NC_008463.1	exonerate:protein2genome:local	cds	6219854	6220156	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	6219854	6220156	.	-	.	insertions 3 ; deletions 0 ; identity 37.00 ; similarity 53.00
+NC_008463.1	exonerate:protein2genome:local	similarity	6219854	6220156	122	-	.	alignment_id 3 ; Query WP_207933080.1 ; Align 6220157 79 141 ; Align 6220013 126 159
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	2836801	2837265	109	-	.	gene_id 4 ; sequence WP_207933080.1 ; gene_orientation . ; identity 31.37 ; similarity 43.79
+NC_008463.1	exonerate:protein2genome:local	cds	2836801	2837265	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	2836801	2837265	.	-	.	insertions 6 ; deletions 0 ; identity 31.37 ; similarity 43.79
+NC_008463.1	exonerate:protein2genome:local	similarity	2836801	2837265	109	-	.	alignment_id 4 ; Query WP_207933080.1 ; Align 2837266 81 135 ; Align 2837128 126 132 ; Align 2836993 170 192
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	5773461	5773844	100	-	.	gene_id 5 ; sequence WP_207933080.1 ; gene_orientation . ; identity 32.54 ; similarity 46.03
+NC_008463.1	exonerate:protein2genome:local	cds	5773461	5773844	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	5773461	5773844	.	-	.	insertions 6 ; deletions 0 ; identity 32.54 ; similarity 46.03
+NC_008463.1	exonerate:protein2genome:local	similarity	5773461	5773844	100	-	.	alignment_id 5 ; Query WP_207933080.1 ; Align 5773845 84 126 ; Align 5773716 126 129 ; Align 5773584 169 123
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	4208152	4208580	147	-	.	gene_id 1 ; sequence WP_191985600.1 ; gene_orientation . ; identity 38.57 ; similarity 50.71
+NC_008463.1	exonerate:protein2genome:local	cds	4208152	4208580	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	4208152	4208580	.	-	.	insertions 9 ; deletions 0 ; identity 38.57 ; similarity 50.71
+NC_008463.1	exonerate:protein2genome:local	similarity	4208152	4208580	147	-	.	alignment_id 1 ; Query WP_191985600.1 ; Align 4208581 65 237 ; Align 4208338 144 162 ; Align 4208173 198 21
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	268725	269054	143	-	.	gene_id 2 ; sequence WP_191985600.1 ; gene_orientation . ; identity 32.11 ; similarity 53.21
+NC_008463.1	exonerate:protein2genome:local	cds	268725	269054	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	268725	269054	.	-	.	insertions 3 ; deletions 0 ; identity 32.11 ; similarity 53.21
+NC_008463.1	exonerate:protein2genome:local	similarity	268725	269054	143	-	.	alignment_id 2 ; Query WP_191985600.1 ; Align 269055 63 189 ; Align 268863 126 138
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	6219854	6220156	123	-	.	gene_id 3 ; sequence WP_191985600.1 ; gene_orientation . ; identity 37.00 ; similarity 54.00
+NC_008463.1	exonerate:protein2genome:local	cds	6219854	6220156	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	6219854	6220156	.	-	.	insertions 3 ; deletions 0 ; identity 37.00 ; similarity 54.00
+NC_008463.1	exonerate:protein2genome:local	similarity	6219854	6220156	123	-	.	alignment_id 3 ; Query WP_191985600.1 ; Align 6220157 79 141 ; Align 6220013 126 159
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	2836846	2837265	105	-	.	gene_id 4 ; sequence WP_191985600.1 ; gene_orientation . ; identity 31.88 ; similarity 46.38
+NC_008463.1	exonerate:protein2genome:local	cds	2836846	2837265	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	2836846	2837265	.	-	.	insertions 6 ; deletions 0 ; identity 31.88 ; similarity 46.38
+NC_008463.1	exonerate:protein2genome:local	similarity	2836846	2837265	105	-	.	alignment_id 4 ; Query WP_191985600.1 ; Align 2837266 81 135 ; Align 2837128 126 132 ; Align 2836993 170 147
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	5773347	5773844	103	-	.	gene_id 5 ; sequence WP_191985600.1 ; gene_orientation . ; identity 32.72 ; similarity 45.06
+NC_008463.1	exonerate:protein2genome:local	cds	5773347	5773844	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	5773347	5773844	.	-	.	insertions 12 ; deletions 0 ; identity 32.72 ; similarity 45.06
+NC_008463.1	exonerate:protein2genome:local	similarity	5773347	5773844	103	-	.	alignment_id 5 ; Query WP_191985600.1 ; Align 5773845 84 126 ; Align 5773716 126 129 ; Align 5773584 169 105 ; Align 5773473 204 126
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	1964299	1964698	103	-	.	gene_id 6 ; sequence WP_191985600.1 ; gene_orientation . ; identity 35.38 ; similarity 40.77
+NC_008463.1	exonerate:protein2genome:local	cds	1964299	1964698	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	1964299	1964698	.	-	.	insertions 6 ; deletions 0 ; identity 35.38 ; similarity 40.77 ; frameshifts 4
+NC_008463.1	exonerate:protein2genome:local	similarity	1964299	1964698	103	-	.	alignment_id 6 ; Query WP_191985600.1 ; Align 1964699 292 24 ; Align 1964671 300 54 ; Align 1964614 318 105 ; Align 1964506 353 207
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	3091639	3092031	102	-	.	gene_id 7 ; sequence WP_191985600.1 ; gene_orientation . ; identity 35.66 ; similarity 37.21
+NC_008463.1	exonerate:protein2genome:local	cds	3091639	3092031	.	-	.	
+NC_008463.1	exonerate:protein2genome:local	exon	3091639	3092031	.	-	.	insertions 6 ; deletions 0 ; identity 35.66 ; similarity 37.21
+NC_008463.1	exonerate:protein2genome:local	similarity	3091639	3092031	102	-	.	alignment_id 7 ; Query WP_191985600.1 ; Align 3092032 277 42 ; Align 3091987 291 123 ; Align 3091861 332 222
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	2363130	2364257	1949	+	.	gene_id 1 ; sequence WP_043088560.1 ; gene_orientation . ; identity 97.87 ; similarity 98.40
+NC_008463.1	exonerate:protein2genome:local	cds	2363130	2364257	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	2363130	2364257	.	+	.	insertions 0 ; deletions 1 ; identity 97.87 ; similarity 98.40
+NC_008463.1	exonerate:protein2genome:local	similarity	2363130	2364257	1949	+	.	alignment_id 1 ; Query WP_043088560.1 ; Align 2363130 1 225 ; Align 2363355 77 903
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	2363130	2363630	872	+	.	gene_id 1 ; sequence WP_132808590.1 ; gene_orientation . ; identity 97.60 ; similarity 97.60
+NC_008463.1	exonerate:protein2genome:local	cds	2363130	2363630	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	2363130	2363630	.	+	.	insertions 0 ; deletions 0 ; identity 97.60 ; similarity 97.60
+NC_008463.1	exonerate:protein2genome:local	similarity	2363130	2363630	872	+	.	alignment_id 1 ; Query WP_132808590.1 ; Align 2363130 1 501
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	2363925	2364257	574	+	.	gene_id 2 ; sequence WP_132808590.1 ; gene_orientation . ; identity 93.69 ; similarity 95.50
+NC_008463.1	exonerate:protein2genome:local	cds	2363925	2364257	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	2363925	2364257	.	+	.	insertions 0 ; deletions 0 ; identity 93.69 ; similarity 95.50
+NC_008463.1	exonerate:protein2genome:local	similarity	2363925	2364257	574	+	.	alignment_id 2 ; Query WP_132808590.1 ; Align 2363925 159 333
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	1649585	1650990	2439	+	.	gene_id 1 ; sequence OPF36132.1 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+NC_008463.1	exonerate:protein2genome:local	cds	1649585	1650990	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	1649585	1650990	.	+	.	insertions 0 ; deletions 1 ; identity 100.00 ; similarity 100.00 ; frameshifts 2
+NC_008463.1	exonerate:protein2genome:local	similarity	1649585	1650990	2439	+	.	alignment_id 1 ; Query OPF36132.1 ; Align 1649585 1 1245 ; Align 1650832 417 159
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	2363133	2364257	1168	+	.	gene_id 1 ; sequence WP_054881224.1 ; gene_orientation . ; identity 61.07 ; similarity 69.33
+NC_008463.1	exonerate:protein2genome:local	cds	2363133	2364257	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	2363133	2364257	.	+	.	insertions 0 ; deletions 0 ; identity 61.07 ; similarity 69.33
+NC_008463.1	exonerate:protein2genome:local	similarity	2363133	2364257	1168	+	.	alignment_id 1 ; Query WP_054881224.1 ; Align 2363133 3 1125
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	4426736	4427833	1825	+	.	gene_id 1 ; sequence WP_207933080.1 ; gene_orientation . ; identity 97.27 ; similarity 97.54
+NC_008463.1	exonerate:protein2genome:local	cds	4426736	4427833	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	4426736	4427833	.	+	.	insertions 0 ; deletions 0 ; identity 97.27 ; similarity 97.54
+NC_008463.1	exonerate:protein2genome:local	similarity	4426736	4427833	1825	+	.	alignment_id 1 ; Query WP_207933080.1 ; Align 4426736 292 1098
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	4425603	4426478	1452	+	.	gene_id 2 ; sequence WP_207933080.1 ; gene_orientation . ; identity 98.29 ; similarity 99.32
+NC_008463.1	exonerate:protein2genome:local	cds	4425603	4426478	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	4425603	4426478	.	+	.	insertions 0 ; deletions 0 ; identity 98.29 ; similarity 99.32
+NC_008463.1	exonerate:protein2genome:local	similarity	4425603	4426478	1452	+	.	alignment_id 2 ; Query WP_207933080.1 ; Align 4425603 1 876
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	778444	778911	154	+	.	gene_id 3 ; sequence WP_207933080.1 ; gene_orientation . ; identity 30.97 ; similarity 46.45
+NC_008463.1	exonerate:protein2genome:local	cds	778444	778911	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	778444	778911	.	+	.	insertions 3 ; deletions 1 ; identity 30.97 ; similarity 46.45
+NC_008463.1	exonerate:protein2genome:local	similarity	778444	778911	154	+	.	alignment_id 3 ; Query WP_207933080.1 ; Align 778444 66 177 ; Align 778621 126 141 ; Align 778765 173 147
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	901772	902428	151	+	.	gene_id 4 ; sequence WP_207933080.1 ; gene_orientation . ; identity 31.65 ; similarity 42.66
+NC_008463.1	exonerate:protein2genome:local	cds	901772	902428	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	901772	902428	.	+	.	insertions 3 ; deletions 3 ; identity 31.65 ; similarity 42.66
+NC_008463.1	exonerate:protein2genome:local	similarity	901772	902428	151	+	.	alignment_id 4 ; Query WP_207933080.1 ; Align 901772 81 135 ; Align 901910 126 312 ; Align 902222 233 207
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	3552151	3552429	115	+	.	gene_id 5 ; sequence WP_207933080.1 ; gene_orientation . ; identity 35.48 ; similarity 45.16
+NC_008463.1	exonerate:protein2genome:local	cds	3552151	3552429	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	3552151	3552429	.	+	.	insertions 0 ; deletions 0 ; identity 35.48 ; similarity 45.16
+NC_008463.1	exonerate:protein2genome:local	similarity	3552151	3552429	115	+	.	alignment_id 5 ; Query WP_207933080.1 ; Align 3552151 100 279
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	4859110	4860009	1552	+	.	gene_id 1 ; sequence KJJ10958.1 ; gene_orientation . ; identity 98.33 ; similarity 99.33
+NC_008463.1	exonerate:protein2genome:local	cds	4859110	4860009	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	4859110	4860009	.	+	.	insertions 0 ; deletions 0 ; identity 98.33 ; similarity 99.33
+NC_008463.1	exonerate:protein2genome:local	similarity	4859110	4860009	1552	+	.	alignment_id 1 ; Query KJJ10958.1 ; Align 4859110 1 900
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	1648632	1649456	588	+	.	gene_id 2 ; sequence KJJ10958.1 ; gene_orientation . ; identity 44.73 ; similarity 61.45
+NC_008463.1	exonerate:protein2genome:local	cds	1648632	1649456	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	1648632	1649456	.	+	.	insertions 0 ; deletions 0 ; identity 44.73 ; similarity 61.45
+NC_008463.1	exonerate:protein2genome:local	similarity	1648632	1649456	588	+	.	alignment_id 2 ; Query KJJ10958.1 ; Align 1648632 1 825
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	4425603	4427833	3706	+	.	gene_id 1 ; sequence WP_191985600.1 ; gene_orientation . ; identity 98.65 ; similarity 99.33
+NC_008463.1	exonerate:protein2genome:local	cds	4425603	4427833	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	4425603	4427833	.	+	.	insertions 0 ; deletions 1 ; identity 98.65 ; similarity 99.33 ; frameshifts 2
+NC_008463.1	exonerate:protein2genome:local	similarity	4425603	4427833	3706	+	.	alignment_id 1 ; Query WP_191985600.1 ; Align 4425603 1 684 ; Align 4426289 230 1545
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	778444	778911	152	+	.	gene_id 2 ; sequence WP_191985600.1 ; gene_orientation . ; identity 30.97 ; similarity 46.45
+NC_008463.1	exonerate:protein2genome:local	cds	778444	778911	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	778444	778911	.	+	.	insertions 3 ; deletions 1 ; identity 30.97 ; similarity 46.45
+NC_008463.1	exonerate:protein2genome:local	similarity	778444	778911	152	+	.	alignment_id 2 ; Query WP_191985600.1 ; Align 778444 66 177 ; Align 778621 126 141 ; Align 778765 173 147
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	901772	902155	146	+	.	gene_id 3 ; sequence WP_191985600.1 ; gene_orientation . ; identity 37.80 ; similarity 47.24
+NC_008463.1	exonerate:protein2genome:local	cds	901772	902155	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	901772	902155	.	+	.	insertions 3 ; deletions 0 ; identity 37.80 ; similarity 47.24
+NC_008463.1	exonerate:protein2genome:local	similarity	901772	902155	146	+	.	alignment_id 3 ; Query WP_191985600.1 ; Align 901772 81 135 ; Align 901910 126 246
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	3552151	3552429	114	+	.	gene_id 4 ; sequence WP_191985600.1 ; gene_orientation . ; identity 35.48 ; similarity 45.16
+NC_008463.1	exonerate:protein2genome:local	cds	3552151	3552429	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	3552151	3552429	.	+	.	insertions 0 ; deletions 0 ; identity 35.48 ; similarity 45.16
+NC_008463.1	exonerate:protein2genome:local	similarity	3552151	3552429	114	+	.	alignment_id 4 ; Query WP_191985600.1 ; Align 3552151 100 279
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	4427024	4427755	156	+	.	gene_id 1 ; sequence CRQ74483.1 ; gene_orientation . ; identity 29.46 ; similarity 44.81
+NC_008463.1	exonerate:protein2genome:local	cds	4427024	4427755	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	4427024	4427755	.	+	.	insertions 9 ; deletions 3 ; identity 29.46 ; similarity 44.81
+NC_008463.1	exonerate:protein2genome:local	similarity	4427024	4427755	156	+	.	alignment_id 1 ; Query CRQ74483.1 ; Align 4427024 69 117 ; Align 4427141 110 126 ; Align 4427270 152 261 ; Align 4427534 239 69 ; Align 4427606 262 66 ; Align 4427672 285 84
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

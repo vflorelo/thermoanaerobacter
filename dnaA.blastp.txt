@@ -1,0 +1,103 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: WP_009052052.dnaa.aa.fasta).
+           1 sequences; 443 total letters
+
+
+
+Query= WP_003109151.1 chromosomal replication initiator protein DnaA
+[Pseudomonas]
+
+Length=514
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_009052052.1 chromosomal replication initiator protein DnaA [Th...  335     8e-115
+
+
+> WP_009052052.1 chromosomal replication initiator protein DnaA 
+[Thermoanaerobacter]
+Length=443
+
+ Score = 335 bits (858),  Expect = 8e-115, Method: Compositional matrix adjust.
+ Identities = 157/317 (50%), Positives = 229/317 (72%), Gaps = 1/317 (0%)
+
+Query  177  SYLNRTFTFENFVEGKSNQLARAAAWQVADNLKHGYNPLFLYGGVGLGKTHLMHAVGNHL  236
+            S LN  +TF+ FV G SN+LA AA   VA      YNPLF+YGGVGLGKTHLMHA+G+ +
+Sbjct  106  STLNPKYTFDTFVVGNSNKLAHAACLAVAQAPAKAYNPLFIYGGVGLGKTHLMHAIGHFI  165
+
+Query  237  LKKNPNAKVVYLHSERFVADMVKALQLNAINEFKRFYRSVDALLIDDIQFFARKERSQEE  296
+             K     K++Y+ SE F  ++V +++ +   EF+  YR++D LLIDDIQF A+KER+QEE
+Sbjct  166  NKHQSGYKIMYVTSETFTNELVNSIKDDKNEEFRNKYRNIDVLLIDDIQFIAKKERTQEE  225
+
+Query  297  FFHTFNALLEGGQQVILTSDRYPKEIEGLEERLKSRFGWGLTVAVEPPELETRVAILMKK  356
+            FFHTFN L E  +Q++++SDR PKEI  LEERL+SRF WGL   ++PP+ ETR+AIL KK
+Sbjct  226  FFHTFNTLYEANKQIVISSDRPPKEIPTLEERLRSRFEWGLIADIQPPDYETRIAILKKK  285
+
+Query  357  AEQAKIELPHDAAFFIAQRIRSNVRELEGALKRVIAHSHFMGRPITIELIRESLKDLLAL  416
+            A+   + +P +   ++A++I+SN+RELEGAL R++A S+     I +EL + +LK++++ 
+Sbjct  286  AQTENLNIPDEVLAYVAEKIQSNIRELEGALIRIVAFSNLTKANIDLELAKHALKEIVSN  345
+
+Query  417  QDKLVSIDNIQRTVAEYYKIKISDLLSKRRSRSVARPRQVAMALSKELTNHSLPEIGVAF  476
+            + + +++  IQ  V +YY IK+ D  S++R++++A PRQ+AM L++ELT+ SLP+IG  F
+Sbjct  346  KTREITVKLIQEEVCKYYNIKLEDFRSRKRTKNIAYPRQIAMYLARELTDLSLPKIGEEF  405
+
+Query  477  GGRDHTTVLHACRKIAQ  493
+             G+DHTTV+HA  KI+ 
+Sbjct  406  -GKDHTTVIHAYEKISN  421
+
+
+ Score = 37.7 bits (86),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 17/57 (30%), Positives = 33/57 (58%), Gaps = 5/57 (9%)
+
+Query  4   ELWQQCVDLLRDELPSQQFNTW---IRPLQVEAEGDELRVYAPNRFVLDWVNEKYLG  57
+           ++W++ V++++ EL    +NTW   I+PL +    D L +  PN F  + +N +Y+ 
+Sbjct  7   QIWERIVEVIKSELTPTSYNTWLVHIKPLAI--IDDVLFLSTPNTFTKNIINGRYIN  61
+
+
+ Score = 15.0 bits (27),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 5/11 (45%), Positives = 10/11 (91%), Gaps = 0/11 (0%)
+
+Query  320  KEIEGLEERLK  330
+            ++IE L++R+K
+Sbjct  431  RQIEELKKRIK  441
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 197210
+
+
+  Database: User specified sequence set (Input: WP_009052052.dnaa.aa.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 443
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

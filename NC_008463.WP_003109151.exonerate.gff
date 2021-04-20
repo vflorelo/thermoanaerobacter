@@ -1,0 +1,20 @@
+Command line: [exonerate --model protein2genome --query WP_003109151.dnaa.aa.fasta --target NC_008463.fasta --geneticcode 11 --maxintron 0 --showalignment no --showvulgar no --showtargetgff yes]
+Hostname: [anna.viewdns.net]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2021-04-20
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+NC_008463.1	exonerate:protein2genome:local	gene	483	2024	2621	+	.	gene_id 1 ; sequence WP_003109151.1 ; gene_orientation . ; identity 99.81 ; similarity 100.00
+NC_008463.1	exonerate:protein2genome:local	cds	483	2024	.	+	.	
+NC_008463.1	exonerate:protein2genome:local	exon	483	2024	.	+	.	insertions 0 ; deletions 0 ; identity 99.81 ; similarity 100.00
+NC_008463.1	exonerate:protein2genome:local	similarity	483	2024	2621	+	.	alignment_id 1 ; Query WP_003109151.1 ; Align 483 1 1542
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis
